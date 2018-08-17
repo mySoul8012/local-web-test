@@ -1,0 +1,35 @@
+{
+  "name": "local-web-test",
+  "version": "1.0.0",
+  "description": "quickly bulid local test server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mySoul8012/local-web-test.git"
+  },
+  "keywords": [
+    "test",
+    "local",
+    "web",
+    "server",
+    "cors",
+    "ajax",
+    "data",
+    "express"
+  ],
+  "author": "mySoul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mySoul8012/local-web-test/issues"
+  },
+  "homepage": "https://github.com/mySoul8012/local-web-test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "multer": "^1.3.1"
+  }
+}
