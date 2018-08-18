@@ -1,10 +1,10 @@
 # Chinese
 ## local-web-test
 ![local-web-test](https://img.shields.io/badge/local--web--test-1.0.0-green.svg)
-一个本地的基于node.js的测试服务器
-支持快速的启动web容器服务
-支持快速的发送get，post请求，并记录在/log文件夹下，并在控制台输出
-支持一个函数完成cors跨域请求
+一个本地的基于node.js的测试服务器。
+支持快速的启动web容器服务。
+支持快速的发送get，post请求，并记录在/log（log 文件夹需要事先建立，在运行的根目录）文件夹下，并在控制台输出
+支持cors跨域请求。
 
 ### Install
 ```
@@ -61,7 +61,7 @@ test.post('./', 3344, '*');
 2018年08月17日 1.0.0 
 2018年08月17日 1.0.1	增加英文文档（虽然是机翻的，并没有什么用处╮(╯▽╰)╭）
 2018年08月19日 1.0.2	更改路径错误 添加测试用例
-
+2018年08月19日 1.0.3 更改错别字
 ## 依赖
 该包依赖于body-parser cookie-parser express multer
 
@@ -73,8 +73,8 @@ test.post('./', 3344, '*');
 ![local-web-test](https://img.shields.io/badge/local--web--test-1.0.0-green.svg)
 a local node.js based test server
 Support for fast startup web container services
-Support fast send get, post request, and record in the /log folder, and output in the console
-Support a function to complete cors cross-domain request
+Support fast send get, post request, and record in the /log (log folder needs to be established in advance, in the root directory of the run) folder, and output in the console
+Support cors cross-domain request
 ## Install
 ```
 npm install --save local-web-test
@@ -129,6 +129,7 @@ test.post('./', 3344, '*');
 August 17, 2018 1.0.0
 August 17, 2018 1.0.1 Adding English documents (although it is machine-turned, it has no use (╮)╭)
 August 19, 2018 1.0.2 Change path error Add test case
+August 19, 2018 1.0.3 Change typos
 
 ## rely
 This package depends on the body-parser cookie-parser express multer

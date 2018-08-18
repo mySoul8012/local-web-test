@@ -19,6 +19,8 @@
     "ajax",
     "data",
     "express"
+    "get"
+    "post"
   ],
   "author": "mySoul",
   "license": "ISC",
